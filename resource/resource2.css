@@ -1,0 +1,475 @@
+body{
+position: relative;
+width: 1920px;
+height: 4542px;
+background: #F7F7F7;
+}
+.wrapper{
+
+ 
+}
+.block1{
+  position: absolute;
+  width: 960px;
+  height: 408px;
+  left: 480px;
+  top: 40px;
+
+  background: url(img/im1.png);
+  border: 1px solid #DAE0E5;
+  box-sizing: border-box;
+  border-radius: 18px;
+  z-index:1;
+}
+    .block1__img1{
+      position: absolute;
+      width: 58px;
+      height: 75px;
+      left: 46px;
+      top: 39px;
+      background: url(img/im2.png);
+      z-index:3;
+    }
+    .block1__text1{
+      position: absolute;
+      width: 191.04px;
+      height: 55.06px;
+      left: 118.96px;
+      top: 50.28px;
+      font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+      font-size: 22pt; /* Размер шрифта в процентах */ 
+      /*background: #2E3134;*/
+    }
+    .block1__text2{
+            /* Комплекс из камеры и мобильного приложения, который помогает в любой момент убедиться, что с близкими и домом всё в порядке. */
+
+      position: absolute;
+      width: 262px;
+      height: 141px;
+      left: 46px;
+      bottom: 46px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: normal;
+
+      color: #2E3134;
+    }
+.block2{ /*Лево правый рисунок*/
+  position: absolute;
+  left: 525px;  
+  top: 551px; 
+  z-index:1;        
+}
+   .block2__left{
+    left: 0px;     
+   }
+   .block2__left:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+   .block2__left:visited {
+    color: #800080; /* Цвет посещенной ссылки */
+   } 
+   
+   .block2__right{
+    left: 480px;     
+   }
+   .block2__div{
+    position: absolute;
+    width: 390px;
+    height: 619px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+   }  
+   .block2__img{
+      position: absolute;
+      width: 210px;
+      height: 458px;
+      left: 90px;
+      top: 80px;
+      background: url(img/cam.png);
+   }
+   .block2__more{
+      /* Подробнее */
+      position: absolute;
+      width: 260px;
+      height: 24px;
+      left: 65px;
+      top: 634px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: normal;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      color: #747474;
+   }
+.block3{ /*4 квадрата*/
+  position: absolute;
+  left: 479px;
+  top: 1361px;
+  z-index:1;         
+}
+   .block3__buy{
+    /* Приобрести */
+
+    position: absolute;
+    width: 960px;
+    height: 48px;
+    left: 1px;
+    top: -88px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: normal;
+    text-align: center;
+
+    color: #313334;
+
+   }
+   .block3__div{
+    position: absolute;
+    width: 213.7px;
+    height: 213.7px;
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+   } 
+   .block3__text{
+      position: absolute;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: normal;
+      text-align: center;
+      color: #FFFFFF;        
+   } 
+   .block3__1{
+    left: 0px;     
+   }
+       .block3__1_img{
+          position: absolute;
+          width: 42px;
+          height: 90px;
+          left: 87.33px;
+          top: 51.49px;
+          background: url(img/cam3_1.png);
+
+       }
+       .block3__1__text{
+          width: 187px;
+          height: 24px;
+          left: 13px;
+          top: 159px;
+       }
+   .block3__2{
+    left: 249.67px;     
+   }
+       .block3__2__img{
+          position: absolute;
+          width: 112px;
+          height: 77px;
+          left: 53px;
+          top: 64px;
+          background: url(img/im3_2.png);
+
+       }
+       .block3__2__text{
+          width: 187px;
+          height: 24px;
+          left: 13.33px;
+          top: 160.19px;
+       }
+   .block3__3{
+    left: 499.33px;     
+   }
+       .block3__3__100{
+          position: absolute;
+          width: 46px;
+          height: 46px;
+          left: 26px;
+          top: 72px;
+          background: url(img/3_3_100.png);
+
+       }
+       .block3__3__cam{
+          position: absolute;
+          width: 42px;
+          height: 89px;
+          left: 88px;
+          top: 52px;
+          background: url(img/3_3_cam.png);
+
+       }
+       .block3__3__wifi{
+          position: absolute;
+          width: 45px;
+          height: 34px;
+          left: 143px;
+          top: 79px;
+          background: url(img/3_3_wifi.png);
+
+       }
+       .block3__3__text1{
+          width: 52px;
+          height: 22px;
+          left: 80.67px;
+          top: 153px;
+       }
+       .block3__3__text2{
+          width: 214px;
+          height: 50px;
+          left: 0px;
+          top: 171px;
+       }
+   .block3__4{
+    left: 749px;     
+   }
+       .block3__4__100{
+          position: absolute;
+          width: 46px;
+          height: 46px;
+          left: 26px;
+          top: 72px;
+          background: url(img/3_4_100.png);
+
+       }
+       .block3__4__cam{
+          position: absolute;
+          width: 35px;
+          height: 78px;
+          left: 90px;
+          top: 64px;
+          background: url(img/3_4_cam.png);
+
+       }
+       .block3__4__btv{
+          position: absolute;
+          width: 42px;
+          height: 35px;
+          left: 87px;
+          top: 20px;
+          background: url(img/3_4_btv.png);
+
+       }
+       .block3__4__text1{
+          width: 212px;
+          height: 23px;
+          left: 0px;
+          top: 153px;
+       }
+       .block3__4__text2{
+          width: 212px;
+          height: 23px;
+          left: 0px;
+          top: 171px;
+       }
+
+.block4{ /*белый квадрат отправить заявку*/
+  position: absolute;
+  left: 524px;
+  top: 1685px;        
+  width: 872px;
+  height: 332px;
+  background: #FFFFFF;
+  border-radius: 18px; 
+  z-index:1;     
+} 
+  .block4__text{
+    /* Оставьте заявку, и мы позвоним вам в ближайшее время */
+
+    position: absolute;
+    width: 360px;
+    height: 51px;
+    left: 256px;
+    top: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+
+    color: #313334;    
+  }
+  .block4__telefon{
+    position: absolute;
+    width: 276px;
+    height: 60px;
+    left: 298px;
+    top: 124px;
+
+    border: 3px solid #DAE0E5;
+    border-radius: 4px;
+  }
+   .block4__telefon__number{
+      /* +7 ___ ___ ____ */
+      position: absolute;
+      width: 228px;
+      height: 43px;
+      left: 24px;
+      top: 9px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: normal;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #363636;     
+   }
+   .block4__request{
+      position: absolute;
+      width: 278px;
+      height: 60px;
+      left: 298px;
+      top: 226px;
+
+      background: #72BF44;
+      border-radius: 4px;      
+   }
+     .block4__request__text{
+        /* отправить заявку */
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        left: 30px;
+        top: 19px;
+
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: normal;
+        text-transform: uppercase;
+
+        color: #FFFFFF;        
+     }
+
+.komment1{ /*reviews*/
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 679px;
+    top: 2255px;
+
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+    z-index:2;
+}
+
+.komment2{
+    position: absolute;
+    width: 466px;
+    height: 199.71px;
+    left: 726px;
+    top: 2226.14px;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 18px;
+    z-index:1;  
+}
+  .reviews__photo{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 10px;
+    top: 20px;
+    background: url(img/photo.PNG);
+  }
+  .reviews__name{
+
+    position: absolute;
+    width: 116px;
+    height: 22px;
+    left: 142px;
+    top: 60px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+
+    color: #FFFFFF;
+  }
+  .reviews__text{
+
+      position: absolute;
+      width: 386px;
+      height: 90px;
+      left: 142px;
+      top: 101px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: normal;
+
+      color: #FFFFFF;
+  }
+
+.pop1{
+    position: absolute;
+    width: 720px;
+    height: 698px;
+    left: 720px;
+    top: 106px;
+
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    border-radius: 18px;
+    visibility: hidden;/**/
+    z-index:2;
+}
+
+.square-pop1{
+  position: absolute;
+  width: 311px;
+  height: 196px;
+  background: #FFFFFF;
+  border-radius: 18px;
+}
+  .pop1__1{
+    left: 40px;
+    top: 40px;
+  }
+  .pop1__2{
+    left: 40px;
+    top: 251px;
+  }  
+  .pop1__3{
+    left: 40px;
+    top: 462px;
+  }
+  .pop1__4{
+    left: 369px;
+    top: 40px;
+  }
+  .pop1__5{
+    left: 369px;
+    top: 251px;
+  }  
+  .pop1__6{
+    left: 369px;
+    top: 462px;
+  }
+
+
+
+
+
+ 
